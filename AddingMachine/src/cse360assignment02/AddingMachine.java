@@ -12,6 +12,7 @@ public class AddingMachine {
   }
   
   public void add (int value) {
+	  total = total + value;
   }
 
   public void subtract (int value) {
